@@ -318,3 +318,15 @@ As of October 2018, this data is provided courtesy of [I. Celeste Aurora](https:
 Any license restrictions you may find in downloaded data is removed herewith, only valid license (which is even more free than before) is shown above.
 
 This repository is only a placeholder for the actual Dataset.
+
+## BibTeX / LaTeX Reference Details
+
+```
+@misc{mailabs_2017,
+   author = {Solak, I. Celeste Aurora and Naumov, Dima},
+   title = {The M-AILABS Speech Dataset},
+   year = {2017},
+   howpublished = {\url{https://github.com/i-celeste-aurora/m-ailabs-dataset}}
+}
+```
+
