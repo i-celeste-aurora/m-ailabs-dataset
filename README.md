@@ -322,7 +322,7 @@ This repository is only a placeholder for the actual Dataset.
 ## BibTeX / LaTeX Reference Details
 
 ```
-@misc{mailabs_2017,
+@misc{MAILABS_2017,
    author = {Solak, I. Celeste Aurora and Naumov, Dima},
    title = {The M-AILABS Speech Dataset},
    year = {2017},
