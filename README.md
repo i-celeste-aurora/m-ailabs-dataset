@@ -85,7 +85,7 @@ The `.wav` -files can be found in the directory `wavs` in the same directory as 
 
 If you have any training model that supports LJSpeech data format for preprocessing, you can just run that preprocessing tool on `metadata.csv` and life will be fine. Otherwise, you will need to do your own preprocessing.
 
-n the original format that we provide, the files are separated as shown in the directory structure above.
+In the original format that we provide, the files are separated as shown in the directory structure above.
 
 But, since all `.wav` -files within a given language have  *guaranteed unique names* , you can copy them all into a single `wavs` -directory and generate the `metadata.csv` for that by using the following shell-command (Linux + macOS):
 
@@ -103,7 +103,7 @@ In the first case, this can result in "not-so-good" learning as that character d
 
 In the second case, this word will be learned the same as "Expose", which may not be what you want.
 
-This is valid for all texts, including in other languages. We decided, after some discussion, to *not * remove data but instead leave it up to you to decide which information to use and which not to use. Thus, we are providing you  *both version of the text: a version including those characters and a version where those characters are transliterated * (e.g., the Turkish "ç", if it shows up in German text, is transliterated to "tsch").
+This is valid for all texts, including in other languages. We decided, after some discussion, to *not remove* data but instead leave it up to you to decide which information to use and which not to use. Thus, we are providing you  *both version of the text: a version including those characters and a version where those characters are transliterated* (e.g., the Turkish "ç", if it shows up in German text, is transliterated to "tsch").
 
 For speech recognition, we usually generate multiple version of the same data in a flat-directory structure. Each additional version has noise added to it such as Cafe-backgrounds, City, Crowded Markets, Data Centers, Mega-City-Noise, Train, People Talking and more. If we add all our noise to, e.g., German, we generate usually around 2,800 hours of training data out of the existing, clean 237hrs. We recommend you experiment with similar approaches.
 
@@ -313,7 +313,7 @@ We hope that you will create the most interesting, fascinating and rich speech r
 
 If you have any questions, please feel free to contact me here or on Fediverse. 
 
-As of October 2018, this data is provided courtesy of [Imdat Celeste](https://tau-ceti.space/@ics).
+As of October 2018, this data is provided courtesy of [I. Celeste Aurora](https://tau-ceti.space/@ics).
 
 Any license restrictions you may find in downloaded data is removed herewith, only valid license (which is even more free than before) is shown above.
 
