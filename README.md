@@ -300,6 +300,7 @@ Following character sets have been used in the data in the *transliterated, clea
 
 ## License
 Copyright (c) 2017-2019 by the original creators @ M-AILABS with the following license:
+Copyright (c) 2020 I. Celeste Aurora Solak (github.com/i-celeste-aurora)
 
 Redistribution and use in any form, including any commercial use, with or without modification are permitted provided that the following conditions are met:
 
